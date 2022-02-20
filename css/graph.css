@@ -115,7 +115,7 @@
   touch-action: manipulation;
   vertical-align: baseline;
   white-space: nowrap;
-  width: 100px;
+  width: 150px;
   margin-bottom: 16px;
 }
 
@@ -138,13 +138,14 @@
 .rightbar {
     width: 1200px;
     display: flex;
-    padding-left: 20px;
+    padding-left: 40px;
     align-items: center;
 }
 
 .graph {
-    background-color:#ffffff;
+    background-color:white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
     width: 1000px;
     height: 400px;
 }
