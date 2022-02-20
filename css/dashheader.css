@@ -13,30 +13,32 @@ header {
     height: 30px;
     width: 30px;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
 .nav-links {
-    list-style-type: none;
+    margin-right: 15px;
 }
-.nav-links li {
-    display: inline-block;
-    padding: 0 20px;
-    font-family: "montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-    text-decoration: none;
+img {
+    height: 40px;
+    width: 40px;
 }
-.nav-links li a {
-    transition: all 0.3s ease 0s;
-    font-family: "montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-    text-decoration: none;
-}
-.nav-links li a:hover {
-    color: black;
-}
-
 .title { 
     margin-right: auto; 
     cursor: pointer;
